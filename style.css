@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /* margin-left: 20px; */
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.Header{
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px;
+    opacity: 0.5;
+    width: 100vw;
+}
+
+.Logo{
+    margin-left: 80px;
+}
+
+.Header div img{
+    cursor: pointer;
+}
+
+#menubar{
+    width: 50px;
+    height: 40px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    font-size: 16px;
+    border: none;
+    background-color: #000000;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: #000000;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    color: white;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+        background-color: #000000;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    background-color: #000000;
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #000000;
+}
+
+.SearchAndCart {
+    margin-right: 100px;
+}
+
+.SearchAndCart img{
+    margin-right: 45px;
+}
+
+.intro{
+    margin-top: -81px;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.introText h2{
+    margin-bottom: 50px;
+}
+
+.introText h3 {
+    margin-bottom: 30px;
+}
+#hero{
+    width: 100vw;
+    height: 100vh;
+}
+
+.introText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    margin-top: -85vh;
+    text-align: center;
+}
+
+#introTextFirst{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 35px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #282825;
+    letter-spacing: 0.2em;
+}
+
+#introTextSecond{
+font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 63px;
+    color: #282825;
+}
+
+#introTextThird{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #282825;
+}
+
+.buttonSee{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;     
+}
+
+.buttonSee button {
+    border-radius: 50px;
+    padding: 22px;
+    border: 1px solid #FFB338;
+    background-color: #FFB338;
+    font-size: 18px;
+    width: 188px;
+    height: 60px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin-top: -25vh;
+}
+
+.arrows img{
+    cursor: pointer;
+}
+
+.circles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 35vh;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#circle1{
+    background-color: white;
+}
+
+.FeaturedProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#FeaturedProductHeader{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 40px;
+}
+
+.FeaturedProductRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -30px;
+
+}
+
+.FeaturedProductRow div {
+    margin: 10px;
+}
+
+.middleImage{
+    margin-top: 40px;
+}
+
+.BambooProducts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #F7F7F7;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+#BambooProductHeader{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #181813;
+    margin-bottom: 20px;
+}
+
+.ProductItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ProductItems p{
+    margin-right: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.SelectedProduct{
+    border-bottom: 3px solid #FFB338;
+}
+
+.ProductPhotos{
+    margin-top: 40px;
+}
+.ScrollBarDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ScrollBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ScrollBar hr{
+    width: 17.7vw;
+    height: 6px;
+    border: none;
+    background-color: #C9C9C9;
+}
+
+.SelectedHR{
+    background-color: #6E6E6E !important;
+}
+
