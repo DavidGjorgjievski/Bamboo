@@ -20,6 +20,62 @@ body{
     width: 100vw;
 }
 
+@media only screen and (max-width: 600px) {
+    .Header{
+        padding: 10px;
+    }
+  .Logo{
+    margin-left: -70px;
+  }
+  .SearchAndCart{
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+
+  }
+
+  .SearchAndCart img {
+      margin-right: -100px;
+      width: 40%;
+      height: 40%;
+  }
+
+  #ShopingCart {
+      margin-left: -20px;
+  }
+
+  .arrows img{
+    margin-top: 30vh;
+  }
+
+  .circles div{
+    margin-top: 10px;
+  }
+
+  .ProductItems p {
+    margin-right: -10px;
+      font-size: 10px;
+      line-height: 0px;
+  }
+
+  .ProductItems :nth-child(1){
+    /* margin-right: -5px; */
+    margin-left: -20px;
+  }
+
+  .ProductItems :nth-child(2) {
+      margin-left: -20px;
+  }
+
+   .ProductItems :nth-child(3) {
+       margin-left: -10px;
+   }
+
+     .ProductItems :nth-child(4) {
+         margin-right: -20px;
+    }
+}
 .Logo{
     margin-left: 80px;
 }
@@ -89,6 +145,8 @@ body{
 .SearchAndCart img{
     margin-right: 45px;
 }
+
+
 
 .intro{
     margin-top: -81px;
@@ -175,6 +233,11 @@ font-family: 'Merriweather';
 
 .arrows img{
     cursor: pointer;
+}
+
+.ArrowRight{
+    transform: rotate(180deg);
+    padding-left: 30px;
 }
 
 .circles{
